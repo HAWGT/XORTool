@@ -186,7 +186,7 @@ int main() {
         {
             codeOffsets.push_back(functionCodeFileOffset);
         }
-        //std::cout << "  " << functionName << " (Offset: 0x" << std::hex << std::setw(8) << std::setfill('0') << functionCodeFileOffset << ")" << std::dec << std::endl;
+        std::cout << "  " << functionName << " (Offset: 0x" << std::hex << std::setw(8) << std::setfill('0') << functionCodeFileOffset << ")" << std::dec << std::endl;
     }
 
     // Patch the functions.
