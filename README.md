@@ -7,3 +7,5 @@ Said exported functions must be xor'ed before executing and should be xor'ed onc
 Running the compiled program without utilizing the XORTool will cause it to crash, using it in another machine will also cause it to crash, this is by design and as an attempt to make static analysis more difficult.
 
 This repository includes implementation examples (the driver one hasn't been thoroughly tested at the moment).
+
+The current implementation is done under the assumption that the exported functions are contiguous in memory.
